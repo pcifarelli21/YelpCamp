@@ -20,7 +20,7 @@ const indexRoutes = require("./routes/index");
 
 const port = process.env.PORT || 3000;
 
-mongoose.connect("mongodb://localhost:27017/yelp_camp_v18", { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect("mongodb://localhost:27017/yelp_camp_v19", { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");

@@ -7,8 +7,6 @@ const async = require('async');
 const nodemailer = require('nodemailer');
 const crypto = require('crypto');
 
-
-
 // Root Route
 router.get('/', (req, res) => {
     res.render("landing.ejs")
